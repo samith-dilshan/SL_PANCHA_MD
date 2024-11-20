@@ -6,6 +6,8 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID,
+ALIVE_IMG: process.env.ALIVE_IMG || "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhyWYx5_IFWOx3de2MtnBrwxK_r1gcNhwa6w&s",
+ALIVE_MSG: process.env.ALIVE_MSG || "Hello. I am SL_PANCHA_MD ☠👋✅ whatsapp bot 💥 i am alive now!💖",
 };
 config.js
 Displaying config.js.
