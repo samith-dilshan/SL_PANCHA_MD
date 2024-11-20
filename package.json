@@ -1,0 +1,27 @@
+{
+  "name": "SL_PANCHA_MDbot",
+  "version": "1.0.0",
+  "description": "(❁´◡`❁) HI, I AM SL_PANCHA_MD WHATSAPP_BOT❤☠",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name PANCHA_MDbot",
+    "stop": "pm2 stop PANCHA_MDbot",
+    "restart": "pm2 restart PANCHA_MDbot"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.6.0",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "pino": "^7.0.5",
+    "pm2": "^5.2.0",
+    "util": "^0.12.4",
+    "express": "latest",
+    "axios": "^1.2.5",
+    "file_size_url": "^1.0.4",
+    "fs-extra": "^11.1.0",
+    "path": "^0.12.7",
+    "node-fetch": "^2.6.1",
+    "megajs": "^1.1.0",
+    "vm": "^0.1.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
