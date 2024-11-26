@@ -51,7 +51,6 @@ const config = await readEnv();
 const prefix = config.PREFIX
 //============================================================================================================
 
-        
 console.log("Connecting SL_PANCHA_MD bot ☠👋...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
