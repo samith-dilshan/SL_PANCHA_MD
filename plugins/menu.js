@@ -51,7 +51,7 @@ ${menu.search}
 
 ❤⭐POWERD BY SL-PANCHA-MD ☠🐱‍👤
 `
-await conn.sendMessage(from,{text:madeMenu},{quote:mek})
+await conn.sendMessage(from,{image:{url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhyWYx5_IFWOx3de2MtnBrwxK_r1gcNhwa6w&s"},caption:madeMenu},{quote:mek})
   
 }catch(e){
 console.loa(e)
