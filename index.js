@@ -199,6 +199,4 @@ res.send("hey, SL_PANCHA_MD WHATSAPP bot started✅");
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
 connectToWA()
-}, 4000);  
-index.js
-Displaying index.js.
+}, 4000);
