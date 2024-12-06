@@ -7,12 +7,12 @@
 
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "CFdxhQAL#ZACtToSBsiolm9x4yK8j2xqDx6Od1StgCfzgHLqtC1A",
       "required": true
     },  
 
     "ALIVE_IMG": {
-      "description": "Put your alive img here.",
+      "description": "https://images.mahagedara.site/?id=eyJpZCI6IjFvaUI2M1JodWRtZUhFRjRLMjhwMDRqNnBReDNpYWpCbCJ9",
       "required": true
     },
     
